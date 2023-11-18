@@ -1,0 +1,217 @@
+/* FONT-FAIMLY */
+
+/* body{
+    font-family: cursive;
+}
+    
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.credits {
+    font-family: "Courier New", Courier,
+    monospace;}  */
+
+    /* FONT-SIZE */
+    /* PIxels */
+    /* p{
+        font-size: 500px;
+    } */
+
+    /* PERCENTAGE */
+  /* p{
+    font-size: 100%;
+  } */
+
+  /* default values */
+  /* p{
+    font-size: xx-large;
+  } */
+
+  /* FONT-FACE */
+  /* @import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Open+Sans:wght@300&family=Oswald:wght@200;300;400&family=Poppins:wght@100&family=Roboto+Mono:ital,wght@0,100;0,200;1,100&family=Roboto:ital,wght@0,100;1,100&display=swap');
+  p{
+    font-family: agbalumo;
+  } */
+
+  /* FONT-WEIGHT */
+  /* p{
+    font-weight: lighter;
+  } */
+
+  /* FONT-STYLE */
+  /* #italic{
+    font-style: italic ;
+  }
+
+  #normal{
+    font-style: normal;
+  }
+
+  #oblique{
+    font-style: obli;
+  } */
+
+  /* TEST TRANSFORMATION */
+  /* HELLO GUYS  <=upper case*/
+  /* hello guys <=lower case */
+  /* HEllo Guys What Are You Doing <= capatilize */
+  /* h1{
+    text-transform: uppercase ;
+  }
+
+  h1{
+    text-transform: capitalize;
+  } */
+
+/* TEXT-DECORATION */
+/* #none{
+  text-decoration: none;
+}
+#underline{
+  text-decoration: underline;
+}
+
+#overline
+{
+  text-decoration: overline;
+}
+
+#line-through{
+  text-decoration: line-through;
+} */
+
+/* #blink{
+  text-decoration: blink;
+} */ 
+
+
+/* LINE-HEIGHT/LEADIN */
+/* line-height means the gap between words */
+/* p{
+  line-height: 50pm;
+} */
+
+/* LETTER  AND WORD SPACING*/
+/* word spacing */
+/* defult value is 5px se hum kam nahi askte hai agr ate hai tou minus main value dthe hai  */
+/* h1{
+ word-spacing: 3px;
+} */
+
+/* letter spacing */
+/* no defult values we can take any value positive and */
+/* h1{
+  letter-spacing: 5px;
+} */
+
+
+/* this is also horizontal aligment */
+/* text-aligment */
+/* h1{
+  text-align: center;
+} */
+/* justify */
+/* uss main hum paragraph ki pattern ko ek jese krte hai matlb paragraph ek he jagha pr khtm hoga */
+/* p
+{
+text-align: justify;
+} */
+
+/* left side */
+/* p{
+  text-align: left;
+} */
+
+/* right side */
+/* p{
+  text-align: right;
+} */
+
+/* VERTICAL ALIGnMENT */
+/* img{
+   vertical-align: text-top;
+} */
+
+/* TEXT INDENT */
+/* p{
+  text-indent: 50 px;
+}
+p{
+  text-align: justify ;
+} */
+
+/* text shadow */
+/* the first value is for horizontal,second is for vertical ,third is for blurand fouth is for color */
+/* p{
+  background-color: wheat;
+  color: black;
+  text-shadow: 1px 1px 0px #000000;
+} */
+
+/* first letter or first line */
+/* these are also called psedue element */
+/* p::first-letter{
+  color: red;
+} */
+
+/* p::first-line{
+  color: blue;
+} */
+
+/* STYLING LINKS*/
+/* a:link{
+  color: blue;
+}
+
+a:visited{
+  color: red;
+} */
+
+
+/* USER RESPODING*/
+/* hover */
+/* input.btn:hover{
+  background-color: cadetblue;
+}
+input.btn:active{
+  background-color: red;
+}
+input.textbox:focus{
+  background-color: blueviolet;
+  color: white;
+} */
+
+/* Attribute selectors */
+/* existance */
+/* h1[name]{
+  color: brown;
+} */
+
+/* EQUALITY */
+/* h1[test="hi"]{
+  color: red;
+} */
+
+/* Space */
+/* h1[test~='hi']{
+  color: pink;
+} */
+
+/* PREFIX */
+/* h1[test^="h"]{
+  color: red;
+} */
+
+/* SUBSTRING */
+/* h1[test*="ll"]{
+  color: red;
+} */
+
+/* SUFFIX */
+/* attribute chnge hone se frak parhta hai agr hume ne attribute "test" ko target kiya hai tou sirf uss pr css apply hoga
+aour dusrre ka name testing hai tou wo css us pr apply nahi hoga  */
+/* h1[test$="l"]{
+  color: blue;
+} */
